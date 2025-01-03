@@ -9,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 //Angel Vellon xd
 //Aquino Giancarlos :V
 //HOLA Amigos
+// ooolaaaa
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

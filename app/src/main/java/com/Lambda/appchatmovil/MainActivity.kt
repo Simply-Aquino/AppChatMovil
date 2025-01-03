@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 //Luis Corimanya
 //Angel Vellon xd
 //Aquino Giancarlos :V
+//Gnar: unlolceto?
 //HOLA Amigos
 // ooolaaaa
 // ;

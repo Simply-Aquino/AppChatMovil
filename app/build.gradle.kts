@@ -37,6 +37,7 @@ android {
 
 dependencies {
 
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -45,5 +46,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    runtimeOnly("com.airbnb.android:lottie:4.2.1")
+    implementation("com.airbnb.android:lottie:4.2.1")
 }

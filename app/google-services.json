@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277207081567",
+    "project_id": "chatappgnar",
+    "storage_bucket": "chatappgnar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277207081567:android:7b8ad62332c45ea8d9b1ea",
+        "android_client_info": {
+          "package_name": "com.Lambda.appchatmovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwRjbpiy8367hWKbRZRQIRHaQ3J5nhRQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

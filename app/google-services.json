@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477130587439",
+    "project_id": "chatappaquino",
+    "storage_bucket": "chatappaquino.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477130587439:android:7d607605d4be5f9711b5da",
+        "android_client_info": {
+          "package_name": "com.Lambda.appchatmovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRignLp76K78q6dUq9MM10FFCUKqf5cnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

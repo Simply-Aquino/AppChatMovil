@@ -11,5 +11,10 @@
     <string name="R_Et_password">Contraseña</string>
     <string name="R_Et_r_password">Repita su contraseña</string>
     <string name="Btn_registrar">Registrar</string>
-    //
+
+    //Video 11
+    <string name="L_Et_email">Correo Electrónico</string>
+    <string name="L_Et_Password">Contraseña</string>
+    <string name="Btn_login">Ingresar</string>
+
 </resources>

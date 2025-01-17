@@ -15,36 +15,66 @@
         android:gravity="center"
         android:padding="10dp">
 
-        <EditText
-            android:id="@+id/R_Et_nombre_usuario"
-            android:hint="@string/R_Et_nombre_usuario"
-            android:inputType="text"
+        <!--Nombre de Usuario-->
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp"/>
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/R_Et_email"
-            android:hint="@string/R_Et_email"
-            android:inputType="textEmailAddress"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"/>
+            <EditText
+                android:id="@+id/R_Et_nombre_usuario"
+                android:hint="@string/R_Et_nombre_usuario"
+                android:inputType="textPersonName|textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
 
-        <EditText
-            android:id="@+id/R_Et_password"
-            android:hint="@string/R_Et_password"
-            android:layout_marginTop="10dp"
-            android:inputType="textPassword"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/R_Et_r_password"
-            android:hint="@string/R_Et_r_password"
-            android:layout_marginTop="10dp"
-            android:inputType="textPassword"
+        <!--Email-->
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp"/>
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/R_Et_email"
+                android:hint="@string/R_Et_email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Password-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/R_Et_password"
+                android:hint="@string/R_Et_password"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Repeat Password-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/R_Et_r_password"
+                android:hint="@string/R_Et_r_password"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/Btn_registrar"

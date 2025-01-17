@@ -1,6 +1,9 @@
 package com.Lambda.appchatmovil
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -65,8 +68,8 @@ class LoginActivity : AppCompatActivity() {
 
     private fun InicializarVariables(){
         L_Et_email = findViewById(R.id.L_Et_email)
-        L_Et_password = findViewById(R.id.L_Et_password)
-        Btn_login = findViewById(R.id.Btn_login)
+        L_Et_password = findViewById(R.id.L_Et_Password)
+        Btn_login = findViewById(R.id.Btn_ir_logeo)
         auth= FirebaseAuth.getInstance()
     }
 }

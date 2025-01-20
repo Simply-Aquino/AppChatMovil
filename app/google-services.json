@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086334869162",
+    "project_id": "appchatmovil",
+    "storage_bucket": "appchatmovil.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086334869162:android:2f08464f3dbeaf270afad3",
+        "android_client_info": {
+          "package_name": "com.Lambda.appchatmovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmGeBaNbIw9x-tzO_GTzNjpnR0F23c4iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
